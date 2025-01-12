@@ -8,7 +8,7 @@ echo "Script Name \$0: $0"
 echo "First Parameter\$1:$1"
 
 # Display the second positional parameter
-echo "Second Parameter \$2: $2"
+echo "Second Parameter \$2: ${2:-No Value}"
 
 # Display all positional parameters
 echo "All Parameters \$@ and \$*: $@"

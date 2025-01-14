@@ -1,0 +1,17 @@
+# Sequential Execution
+echo "Hello"; echo "World"; echo "!"
+
+# Conditional Execution (AND)
+mkdir new_folder && cd new_folder && touch file.txt
+
+# Conditional Execution (OR)
+cat non_existent_file.txt || echo "File not found" || echo "Please check the filename"
+
+# Pipelines
+echo "Hello World" | tr ' ' '\n' | sort
+
+# Subshell Execution
+(cd /tmp; ls; cd -)
+
+# Background Execution
+sleep 5 & sleep 10 & sleep 15 &

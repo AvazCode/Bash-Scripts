@@ -1,0 +1,2 @@
+tail: cannot open '/etc/shadow' for reading: Permission denied
+tail: cannot open '/etc/shadow' for reading: Permission denied

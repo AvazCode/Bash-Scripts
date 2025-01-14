@@ -22,5 +22,8 @@ do
 			echo "Done"
 			exit
 			;;
+		*)
+			echo "Invalid option"
+			;;
 esac
 done
